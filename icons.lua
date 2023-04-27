@@ -43,27 +43,29 @@ return {
     Search = "",
     Selected = "",
     TabClose = "",
-  },
-  plugins = {
-    {
-      "onsails/lspkind.nvim",
-      opts = function(_, opts)
-        -- use codicons preset
-        opts.preset = "codicons"
-        -- set some missing symbol types
-        opts.symbol_map = {
-          Array = "",
-          Boolean = "",
-          Key = "",
-          Namespace = "",
-          Null = "",
-          Number = "",
-          Object = "",
-          Package = "",
-          String = "",
-        }
-        return opts
-      end,
-    },
+    Text = "",
+    Method = "",
+    Function = "",
+    Constructor = "",
+    Field = "ﰠ",
+    Variable = "",
+    Class = "ﴯ",
+    Interface = "",
+    Module = "",
+    Property = "ﰠ",
+    Unit = "塞",
+    Value = "",
+    Enum = "",
+    Keyword = "",
+    Snippet = "",
+    Color = "",
+    File = "",
+    Reference = "",
+    Folder = "",
+    EnumMember = "",
+    Constant = "",
+    Struct = "פּ",
+    Event = "",
+    Operator = "",
   },
 }
