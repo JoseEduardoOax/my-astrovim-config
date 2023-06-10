@@ -18,6 +18,11 @@ return{
 
     ["<M-j>"] = {"<Esc>:m .+1<CR>==", desc = "Bajar una linea"},
     ["<M-k>"] = {"<Esc>:m .-2<CR>==", desc = "Subir una linea"},
+
+    ["<leader>y"] = { ":w <CR> :!./run compile<CR>", desc = "Compile cpp"},
+    ["<leader>i"] = { ":w <CR> :!./run<CR>", desc = "Run cpp"},
+
+    ["<C-A>"] = {"gg0vG$", desc="Selected all text"},
   },
 
   i = {
